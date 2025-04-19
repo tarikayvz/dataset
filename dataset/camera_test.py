@@ -11,7 +11,6 @@ class_names = np.load('class_names.npy', allow_pickle=True)
 # Kamera başlat
 cap = cv2.VideoCapture(0)  # 0, bilgisayarınızdaki ana kamerayı temsil eder
 
-##sa ben onur
 while True:
     # Kameradan bir kare al
     ret, frame = cap.read()
